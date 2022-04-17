@@ -52,11 +52,11 @@ export const ProjectCard = ({
 }) => {
     const [data, _hasError, loading] = getRepository(username, repository);
 
-    if (!(data.name)) data.name = "I'm a placeholder!"
-    if (!(data.description)) data.description = "You are seeing this cause you are rate limited."
+    if (!(data.name)) data.name = "Enter project name"
+    if (!(data.description)) data.description = "Project Description."
     if (!(data.html_url)) data.html_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-    if (!(data.language)) data.language = "GitHub";
-    if (!(data.stargazers_count)) data.stargazers_count = 69;
+    if (!(data.language)) data.language = "GitHub Link";
+    if (!(data.stargazers_count)) data.stargazers_count = 0;
 
     if (loading) 
         return (

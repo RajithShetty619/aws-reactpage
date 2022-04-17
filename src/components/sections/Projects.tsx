@@ -7,13 +7,13 @@ export const Projects = () => {
                 <h1>Projects</h1>
                 <div className="columns">
                     <div className="column is-multiline is-6">
-                        <ProjectCard username="janleigh" repository="trace.moe.ts" />
+                        <ProjectCard username="redblue-blur" repository="project 1" />
                     </div>
                     <div className="column is-multiline is-half">
-                        <ProjectCard username="janleigh" repository="portfolio" />
+                        <ProjectCard username="redblue-blur" repository="movie-recommendation" />
                     </div>
                 </div>
-                <h1>Commissions</h1>
+                <h1>About yourself</h1>
                 <div className="colums">
                     <div className="column is-full">
                         <p
@@ -22,8 +22,7 @@ export const Projects = () => {
                                 fontSize: "1.2rem",
                             }}
                         >
-                            Hm. Well, this is awkward. There seems nothing in here.<br/>
-                            You can always commission me by clicking <a href="http://ko-fi.com/janleigh/commissions">here</a>.
+                            Enter more about yourself.
                         </p>
                     </div>
                 </div>

@@ -9,9 +9,9 @@ export const Introduction = () => {
                     <div className="column is-12">
                         <ScrollAnimation animateIn="animate__slideInUp" animateOnce={true}>
                             <div className="content" style={{ textAlign: "center" }}>
-                                <h1 className="title">Hello, I'm <span className="blue-text">Jan Leigh</span>.</h1>
+                                <h1 className="title">Hello, I'm <span className="blue-text">"Enter name here"</span>.</h1>
                                 <p className="description">
-                                    A Filipino full-stack web developer.
+                                    A full-stack web developer.
                                 </p>
                                 <Link to="about" smooth={true} className="button floating">
                                     View More
